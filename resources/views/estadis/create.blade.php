@@ -27,7 +27,7 @@
         name="nom" 
         id="nom" 
         value="{{ old('nom') }}" 
-        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
         placeholder="Ex: Estadi Johan Cruyff"
         required
       >
@@ -40,7 +40,7 @@
         name="ciutat" 
         id="ciutat" 
         value="{{ old('ciutat') }}" 
-        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
         placeholder="Ex: Sant Joan Despí"
         required
       >
@@ -54,7 +54,7 @@
         id="aforament" 
         value="{{ old('aforament') }}" 
         min="1"
-        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
         placeholder="Ex: 6000"
         required
       >
@@ -67,7 +67,7 @@
         name="equip" 
         id="equip" 
         value="{{ old('equip') }}" 
-        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
         placeholder="Ex: FC Barcelona Femení"
         required
       >
@@ -76,7 +76,7 @@
     <div class="pt-2">
       <button 
         type="submit" 
-        class="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium px-5 py-2.5 rounded-md shadow transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+        class="w-full md:w-auto bg-purple-600 hover:bg-purple-700 text-white font-medium px-5 py-2.5 rounded-md shadow transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
       >
         Afegir estadi
       </button>

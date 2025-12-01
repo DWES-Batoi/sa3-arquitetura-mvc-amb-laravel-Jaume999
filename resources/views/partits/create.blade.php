@@ -27,7 +27,7 @@
         name="local" 
         id="local" 
         value="{{ old('local') }}" 
-        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
         placeholder="Ex: Barça Femení"
         required
       >
@@ -40,7 +40,7 @@
         name="visitant" 
         id="visitant" 
         value="{{ old('visitant') }}" 
-        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
         placeholder="Ex: Atlètic de Madrid"
         required
       >
@@ -53,7 +53,7 @@
         name="data" 
         id="data" 
         value="{{ old('data', date('Y-m-d')) }}" 
-        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
         min="{{ date('Y-m-d') }}"
         required
       >
@@ -70,7 +70,7 @@
         name="resultat" 
         id="resultat" 
         value="{{ old('resultat') }}" 
-        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+        class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
         placeholder="Ex: 2-1"
         pattern="\d+-\d+"
         title="Format: X-Y (ex: 3-0)"
@@ -80,7 +80,7 @@
     <div class="pt-2">
       <button 
         type="submit" 
-        class="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium px-5 py-2.5 rounded-md shadow transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+        class="w-full md:w-auto bg-purple-600 hover:bg-purple-700 text-white font-medium px-5 py-2.5 rounded-md shadow transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
       >
         Afegir partit
       </button>
